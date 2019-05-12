@@ -1,0 +1,41 @@
+.form-wrapper {
+  height: 100vh;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  text-align: center !important;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.logo-circle {
+  height: 30%;
+  width: 30%;
+}
+
+.btn-login-eucionica {
+  background-color: rgb(0, 104, 142);
+  border-color: #034e6b;
+}
+
+.btn-login-eucionica:active {
+  background-color: rgb(0, 104, 142) !important;
+  border-color: #034e6b !important;
+  box-shadow: 0 0 0 0.1rem rgba(3, 103, 142, 0.5) !important;
+}
+
+.btn-login-eucionica:focus {
+    box-shadow: 0 0 0 0.1rem rgba(3, 103, 142, 0.5);
+}
+
+.btn-login-eucionica:hover {
+  background-color: rgb(0, 84, 115);
+}

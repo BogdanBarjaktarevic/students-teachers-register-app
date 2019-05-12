@@ -1,0 +1,31 @@
+.teachers-table .table .thead-light th {
+    background-color: rgb(0, 104, 142);
+    color: white
+}
+
+.btn-remove-teacher {
+    background-color: rgb(0, 104, 142);
+    border-color: #034e6b;
+  }
+  
+  .btn-remove-teacher:active {
+    background-color: rgb(0, 104, 142) !important;
+    border-color: #034e6b !important;
+    box-shadow: 0 0 0 0.1rem rgba(3, 103, 142, 0.5) !important;
+  }
+  
+  .btn-remove-teacher:focus {
+      box-shadow: 0 0 0 0.1rem rgba(3, 103, 142, 0.5);
+  }
+  
+  .btn-remove-teacher:hover {
+    background-color: rgb(0, 84, 115);
+}
+
+.person-number {
+  color: rgb(0, 104, 142);
+}
+
+.teachers-table {
+  max-height: 300px;
+}

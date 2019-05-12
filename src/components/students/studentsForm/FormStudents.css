@@ -1,0 +1,18 @@
+.btn-add-student {
+    background-color: rgb(0, 104, 142);
+    border-color: #034e6b;
+  }
+  
+  .btn-add-student:active {
+    background-color: rgb(0, 104, 142) !important;
+    border-color: #034e6b !important;
+    box-shadow: 0 0 0 0.1rem rgba(3, 103, 142, 0.5) !important;
+  }
+  
+  .btn-add-student:focus {
+      box-shadow: 0 0 0 0.1rem rgba(3, 103, 142, 0.5);
+  }
+  
+  .btn-add-student:hover {
+    background-color: rgb(0, 84, 115);
+  }

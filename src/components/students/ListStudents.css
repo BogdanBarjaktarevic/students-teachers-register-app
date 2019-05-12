@@ -1,0 +1,31 @@
+.table .thead-light th {
+    background-color: rgb(0, 104, 142);
+    color: white
+}
+
+.btn-remove-student {
+    background-color: rgb(0, 104, 142);
+    border-color: #034e6b;
+  }
+  
+  .btn-remove-student:active {
+    background-color: rgb(0, 104, 142) !important;
+    border-color: #034e6b !important;
+    box-shadow: 0 0 0 0.1rem rgba(3, 103, 142, 0.5) !important;
+  }
+  
+  .btn-remove-student:focus {
+      box-shadow: 0 0 0 0.1rem rgba(3, 103, 142, 0.5);
+  }
+  
+  .btn-remove-student:hover {
+    background-color: rgb(0, 84, 115);
+}
+
+.person-number {
+  color: rgb(0, 104, 142);
+}
+
+.students-table {
+  max-height: 300px;
+}
